@@ -1,3 +1,4 @@
+//input; output:bài này đêu là number
 /*  Bài 1:Tính tiền lương nhân viên
 Viết chương trình tính tiền lương nhân viên.
 lương 1 ngày :100.000
@@ -9,8 +10,7 @@ var soNgayLam = 26;
 var luong = 0;
 //processed
 var luong = luong1Ngay * soNgayLam;
-
-console.log('lương =',luong);
+console.log('lương =',luong.toLocaleString());
 
 
 /*bài 2: Tính giá trị trung bình
@@ -42,7 +42,7 @@ const tiGia = 23500;
 var giaVND = 0;
 //processed
 var giaVND = nhapUSD * tiGia;
-console.log('giá trị VND =',giaVND);
+console.log('giá trị VND =',giaVND.toLocaleString());
 
 
 /* Bài 4: Tính diện tích , chu vi hình chữ nhật 
